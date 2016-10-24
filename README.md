@@ -1,5 +1,6 @@
 # Space is Money
-Tools to manage disk space usage on *NIX systems
+Tools to manage disk space usage on \*NIX systems, including the powerfull
+**ncdu**, and how to use them.
 
 ## How much space is available
 ```bash
