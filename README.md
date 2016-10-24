@@ -1,4 +1,4 @@
-# space_is_money
+# Space is Money
 Tools to manage disk space usage on *NIX systems
 
 ## How much space is available
