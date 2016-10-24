@@ -20,7 +20,7 @@ du -sch * | sort -h
 
 You can add an alias `sp='du -sch * | sort -h` in your `~/.bashrc` file.
 
-## Finding problematic files and folder
+## Finding problematic files and folders with ncdu
 **ncdu** is a useful program to manage disk space usage on \*NIX systems.
 You can use it to find what folder take the most space or contains the
 highest number of files. When using **ncdu**, you can navigate folders in
