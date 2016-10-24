@@ -47,3 +47,33 @@ it may be easier to ask the system admin to do it for you.
 
 
 ### Using ncdu
+To launch **ncdu**, open a bash terminal and move to a folder where you want to learn more about
+disk space usage, then simply type `ncdu` in the terminal. You will be presented with a window that
+looks like this:
+
+```
+ncdu 1.12 ~ Use the arrow keys to navigate, press ? for help       
+--- /home/labolb/Desktop/ncdu-1.12 --------------------------------
+  196.0 KiB [##########]  configure                                
+  184.0 KiB [######### ] /src
+   52.0 KiB [##        ]  aclocal.m4
+   36.0 KiB [#         ] /deps
+   32.0 KiB [#         ]  Makefile.in
+   24.0 KiB [#         ]  depcomp
+   16.0 KiB [          ]  ncdu.1
+   16.0 KiB [          ]  install-sh
+   16.0 KiB [          ] /doc
+    8.0 KiB [          ]  compile
+    8.0 KiB [          ]  missing
+    8.0 KiB [          ]  ChangeLog
+    4.0 KiB [          ]  config.h.in
+    4.0 KiB [          ]  configure.ac
+    4.0 KiB [          ]  README
+    4.0 KiB [          ]  COPYING
+    4.0 KiB [          ]  Makefile.am
+
+ Total disk usage: 620.0 KiB  Apparent size: 529.3 KiB  Items: 46  
+```
+
+### The Manual
+**ncdu**'s manual can be found here: [https://dev.yorhel.nl/ncdu/man](https://dev.yorhel.nl/ncdu/man)
