@@ -160,4 +160,5 @@ ncdu 1.12 ~ Use the arrow keys to navigate, press ? for help
 but, frankly, pretty much all you need to know is covered here or in the interactive help menu.
 
 ## License
+![license logo](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
