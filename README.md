@@ -87,12 +87,32 @@ files and folders are using the most space. In our example, we can see that the
 **configure** (196.0 KiB) and **src** (184.0 Kib) folders take up most of the
 space taken by the whole folder (620.0 KiB, seen at the bottom).
 
-#### Sorting
-You can sort the folders and files 
+#### Displaying more/different information
+You can change what information is displayed in the **ncdu** window with the following
+keys:
+- **g**: Change/remove the file size information style. Press multiple times to cycle.
+- **c**: Show/hide the number of files in folders.
+- **t**: Put folders before files. Press again to cancel.
+- **a**: Toggle between apparent size and disk usage.
+- **e**:  Show/hide hidden or excluded files.
+- **i**:  Show information about selected item.
+- **r**:  Recalculate the current directory.
 
-#### How to find the nest
+#### Sorting
+You can sort the folders and files in a different order than the default (by file
+size) by using the following keys:
+- **s**: file size (default). Press again to reverse order.
+- **n**: file name. Press again to reverse order.
+- **C**: number of items. Press again to reverse order.
+
+#### How to find the nest of files
+Sometimes, we run programs that create crazy amounts of files. By pressing **c** to
+show the file number by folder ane **C** to sort by number of files, we can locate
+these problematic folders and take appropriate action, whether to delete them or
+compress them into an archive.
 
 #### Switching to bash
+Once we have
 
 ### Getting help
 
