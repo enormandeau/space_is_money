@@ -114,6 +114,19 @@ show the file number by folder ane **C** to sort by number of files, we can loca
 these problematic folders and take appropriate action, whether to delete them or
 compress them into an archive.
 
+#### Deleting files and folders
+**WARNING!**: Once you use this procedure, just like for the UNIX **rm** command, your
+files are **gone forever!**. Use with caution.
+
+When you use **ncdu** to navigate to a folder, you can highlight a file or folder and
+press the `d` key to delete it. **ncdu** will ask you if you are sure about deleting
+that file or folder. If you press `yes`, the file or folder is gone, forever. There is
+even an option to tell **ncdu** to stop asking you to confirm each deletion. For the
+sake of your own sanity, **DO NOT USE THIS OPTION!**. It is altogether too easy to hit
+the `d` key by mistake while you are browsing the folders with **ncdu** and to delete
+important files and folders. You will not pardon yourself this mistake easily. Not that
+I would know about this from first hand experience, of course...
+
 #### Switching to bash
 Once we have identified a problematic folder, **ncdu** makes it easy to jump right in
 that folder to solve the problem. Instead of copying the path, exiting **ncdu**, moving
