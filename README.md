@@ -144,7 +144,7 @@ help menu. It is quite simple and looks like this:
 
 ```
 ncdu 1.12 ~ Use the arrow keys to navigate, press ? for help       
---- /home/labolb/Desktop/ncdu-1.12 --------------------------------
+--- /home/username/Desktop/ncdu-1.12 --------------------------------
   196.0 KiB [##########]  configure
   1┌───ncdu help─────────────────1:Keys───2:Format───3:About──┐    
    │                                                          │
