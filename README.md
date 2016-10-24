@@ -112,7 +112,13 @@ these problematic folders and take appropriate action, whether to delete them or
 compress them into an archive.
 
 #### Switching to bash
-Once we have
+Once we have identified a problematic folder, **ncdu** makes it easy to jump right in
+that folder to solve the problem. Instead of copying the path, exiting **ncdu**, moving
+into the folder of interest, taking action and then opening **ncdu** again, we can
+switch to a bash session by simply pressing the `b` key. The present working directory
+will be the directory we were visualizing in the **ncdu** window. We can then remove,
+compress or archive files and folders as needed. When we are done, pressing `Ctrl-D` or
+typing `exit` will bring us back to our **ncdu** session.
 
 ### Getting help
 
