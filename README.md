@@ -80,17 +80,18 @@ for the true 1337 among you, the **vim** movement keys. In the example screen
 presented above, pressing `down` and then `right` would bring us in the **src**
 foldler.
 
-### Where the big files and folders are
+#### Where the big files and folders are
 By default, **ncdu** shows the biggest folder or file at the top and then the
 rest by decreasing order of disk space used. This is very useful to find what
 files and folders are using the most space. In our example, we can see that the
 **configure** (196.0 KiB) and **src** (184.0 Kib) folders take up most of the
 space taken by the whole folder (529.3 KiB, seen at the bottom).
 
-### Sorting
+#### Sorting
 
-### How to find the nest
+#### How to find the nest
 
+#### Switching to bash
 
 ### The Manual
 **ncdu**'s manual can be found here: [https://dev.yorhel.nl/ncdu/man](https://dev.yorhel.nl/ncdu/man)
