@@ -31,5 +31,19 @@ problem before coming back to **ncdu**.
 The following sub-sections describe how to install and use **ncdu**.
 
 ### Installation
+**ncdu** can be downloaded from here : [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu)
+
+To install on your computer it, run the following (you may need to adapt for the version number):
+```bash
+tar xvfz ncdu-1.12.tar.gz
+cd ncdu-1.12
+./configure
+make
+sudo make install
+```
+
+If you need to install on a server where you do not have administrative rights,
+it may be easier to ask the system admin to do it for you.
+
 
 ### Using ncdu
