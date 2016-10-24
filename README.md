@@ -85,13 +85,48 @@ By default, **ncdu** shows the biggest folder or file at the top and then the
 rest by decreasing order of disk space used. This is very useful to find what
 files and folders are using the most space. In our example, we can see that the
 **configure** (196.0 KiB) and **src** (184.0 Kib) folders take up most of the
-space taken by the whole folder (529.3 KiB, seen at the bottom).
+space taken by the whole folder (620.0 KiB, seen at the bottom).
 
 #### Sorting
+You can sort the folders and files 
 
 #### How to find the nest
 
 #### Switching to bash
 
-### The Manual
+### Getting help
+
+#### Interactive help
+During a session, you can press the question mark (`?`) key to open the interactive
+help menu. It is quite simple and looks like this:
+
+```
+ncdu 1.12 ~ Use the arrow keys to navigate, press ? for help       
+--- /home/labolb/Desktop/ncdu-1.12 --------------------------------
+  196.0 KiB [##########]  configure
+  1┌───ncdu help─────────────────1:Keys───2:Format───3:About──┐    
+   │                                                          │
+   │       up, k  Move cursor up                              │
+   │     down, j  Move cursor down                            │
+   │ right/enter  Open selected directory                     │
+   │  left, <, h  Open parent directory                       │
+   │           n  Sort by name (ascending/descending)         │
+   │           s  Sort by size (ascending/descending)         │
+   │           C  Sort by items (ascending/descending)        │
+   │           d  Delete selected file or directory           │
+   │           t  Toggle dirs before files when sorting       │
+   │           g  Show percentage and/or graph                │
+   │                        -- more --                        │
+   │                                         Press q to close │
+   └──────────────────────────────────────────────────────────┘
+    4.0 KiB [          ]  Makefile.am
+
+ Total disk usage: 620.0 KiB  Apparent size: 529.3 KiB  Items: 46  
+ ```
+ 
+ You can navigate the 3 subsections (1:Keys, 2:Format and 3:About) with the `left` and
+ `right` keys and scroll up and down with, you guessed it, the `up` and `down` arrows.
+ The **vim** keys work here too. To quit the help menu, simply press the `q` key.
+
+#### The Manual
 **ncdu**'s manual can be found here: [https://dev.yorhel.nl/ncdu/man](https://dev.yorhel.nl/ncdu/man)
