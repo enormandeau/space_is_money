@@ -20,7 +20,7 @@ du -sch * | sort -h
 
 You can add an alias `sp='du -sch * | sort -h` in your `~/.bashrc` file.
 
-## Finding the mother load with ncdu
+## Finding problematic files and folder
 **ncdu** is a useful program to manage disk space usage on \*NIX systems.
 You can use it to find what folder take the most space or contains the
 highest number of files. When using **ncdu**, you can navigate folders in
@@ -80,6 +80,8 @@ You can navigate the folders and files by using either the arrow keys or,
 for the true 1337 among you, the **vim** movement keys. In the example screen
 presented above, pressing `down` and then `right` would bring us in the **src**
 foldler.
+
+To quit **ncdu**, press the `q` key.
 
 #### Where the big files and folders are
 By default, **ncdu** shows the biggest folder or file at the top and then the
