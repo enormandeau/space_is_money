@@ -158,3 +158,6 @@ ncdu 1.12 ~ Use the arrow keys to navigate, press ? for help
 #### The Manual
 **ncdu**'s manual can be found here: [https://dev.yorhel.nl/ncdu/man](https://dev.yorhel.nl/ncdu/man)
 but, frankly, pretty much all you need to know is covered here or in the interactive help menu.
+
+## License
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
